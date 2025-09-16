@@ -2,15 +2,33 @@
 {
     private static void Main(string[] args)
     {
-        int a, b, OP;
+        float a, b, resultado;
+
         Console.WriteLine("Ingrese el primer numero: ");
-        a = Convert.ToInt32(Console.ReadLine());
+
+        a = float.Parse(Console.ReadLine());
 
         Console.WriteLine("Ingrese el segundo numero: ");
-        b = Convert.ToInt32(Console.ReadLine());
 
-        OP = (a + b) * (a - b);
+        b = float.Parse(Console.ReadLine());
 
-        Console.WriteLine("La suma de {0} + {1} es: {2}", a, b, OP);
+        resultado = CalculosMatematicos.operacion(a, b);
+        Console.WriteLine("El resultado de la operacion es: {0}", resultado);
+    }
+
+
+
+}
+class CalculosMatematicos {
+    public static float operacion(float a, float b)
+    {
+
+       return (a + b) * (a - b);
+
+
     }
 }
+
+
+
+
