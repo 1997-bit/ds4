@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E9CCDA-FB7D-48AB-9BBD-FB2D733F81C5}|Lab 5-5\\Lab 5-5.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 5\\lab 5-5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2E9CCDA-FB7D-48AB-9BBD-FB2D733F81C5}|Lab 5-5\\Lab 5-5.csproj|solutionrelative:lab 5-5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E2B348-429C-4C48-8B87-85D1102E5CD7}|Lab 5-6\\Lab 5-6.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 5\\lab 5-6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E2B348-429C-4C48-8B87-85D1102E5CD7}|Lab 5-6\\Lab 5-6.csproj|solutionrelative:lab 5-6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8630FCB8-959D-424F-87E3-5C0AE0E9822D}|Lab 5-4\\Lab 5-4.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 5\\lab 5-4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8630FCB8-959D-424F-87E3-5C0AE0E9822D}|Lab 5-4\\Lab 5-4.csproj|solutionrelative:lab 5-4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC710888-7997-43DF-9153-F0D0974844C1}|Laboratorio 5\\Laboratorio 5.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 5\\laboratorio 5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC710888-7997-43DF-9153-F0D0974844C1}|Laboratorio 5\\Laboratorio 5.csproj|solutionrelative:laboratorio 5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC710888-7997-43DF-9153-F0D0974844C1}|Laboratorio 5\\Lab 5-1.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 5\\laboratorio 5\\lab 5-1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FC710888-7997-43DF-9153-F0D0974844C1}|Laboratorio 5\\Lab 5-1.csproj|solutionrelative:laboratorio 5\\lab 5-1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50D0C3C3-B4AA-4A76-BC79-F36FEC8D3661}|Laboratorio 52\\Laboratorio 52.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 5\\laboratorio 52\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50D0C3C3-B4AA-4A76-BC79-F36FEC8D3661}|Laboratorio 52\\Laboratorio 52.csproj|solutionrelative:laboratorio 52\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F32644B1-B8C8-4F02-8BAE-E76F80FE7658}|Lab 5-3\\Lab 5-3.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 5\\lab 5-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F32644B1-B8C8-4F02-8BAE-E76F80FE7658}|Lab 5-3\\Lab 5-3.csproj|solutionrelative:lab 5-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Lab 5-6\\Program.cs",
+              "RelativeDocumentMoniker": "Lab 5-6\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Lab 5-6\\Program.cs",
+              "RelativeToolTip": "Lab 5-6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T00:16:03.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Lab 5-5\\Program.cs",
+              "RelativeDocumentMoniker": "Lab 5-5\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Lab 5-5\\Program.cs",
+              "RelativeToolTip": "Lab 5-5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T00:06:05.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Lab 5-4\\Program.cs",
+              "RelativeDocumentMoniker": "Lab 5-4\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Lab 5-4\\Program.cs",
+              "RelativeToolTip": "Lab 5-4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T00:00:37.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Lab 5-3\\Program.cs",
+              "RelativeDocumentMoniker": "Lab 5-3\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Lab 5-3\\Program.cs",
+              "RelativeToolTip": "Lab 5-3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:54:48.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio 52\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio 52\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio 52\\Program.cs",
+              "RelativeToolTip": "Laboratorio 52\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:40:45.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lab 5-1.csproj",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio 5\\Lab 5-1.csproj",
+              "RelativeDocumentMoniker": "Laboratorio 5\\Lab 5-1.csproj",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio 5\\Lab 5-1.csproj",
+              "RelativeToolTip": "Laboratorio 5\\Lab 5-1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-22T23:34:48.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio 5\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio 5\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio 5\\Program.cs",
+              "RelativeToolTip": "Laboratorio 5\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T23:27:31.319Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
