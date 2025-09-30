@@ -1,0 +1,462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C31AB663-8564-4297-A9F4-1A073BED0A63}|Laboratorio89\\Laboratorio89.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio89\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C31AB663-8564-4297-A9F4-1A073BED0A63}|Laboratorio89\\Laboratorio89.csproj|solutionrelative:laboratorio89\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C31AB663-8564-4297-A9F4-1A073BED0A63}|Laboratorio89\\Laboratorio89.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio89\\template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C31AB663-8564-4297-A9F4-1A073BED0A63}|Laboratorio89\\Laboratorio89.csproj|solutionrelative:laboratorio89\\template.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C31AB663-8564-4297-A9F4-1A073BED0A63}|Laboratorio89\\Laboratorio89.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio89\\itemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C31AB663-8564-4297-A9F4-1A073BED0A63}|Laboratorio89\\Laboratorio89.csproj|solutionrelative:laboratorio89\\itemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E780FD3-D938-4A35-A195-B9D1470BB3E3}|Laboratorio83\\Laboratorio83.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio83\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E780FD3-D938-4A35-A195-B9D1470BB3E3}|Laboratorio83\\Laboratorio83.csproj|solutionrelative:laboratorio83\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F252070C-2583-45A6-AC5B-F5DE7F1D5601}|Laboratorio 81\\Laboratorio 81.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio 81\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F252070C-2583-45A6-AC5B-F5DE7F1D5601}|Laboratorio 81\\Laboratorio 81.csproj|solutionrelative:laboratorio 81\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900FCC12-E1D2-47DD-9244-2E5A909250C1}|Laboratorio82\\Laboratorio82.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio82\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900FCC12-E1D2-47DD-9244-2E5A909250C1}|Laboratorio82\\Laboratorio82.csproj|solutionrelative:laboratorio82\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900FCC12-E1D2-47DD-9244-2E5A909250C1}|Laboratorio82\\Laboratorio82.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio82\\cuentaahorro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900FCC12-E1D2-47DD-9244-2E5A909250C1}|Laboratorio82\\Laboratorio82.csproj|solutionrelative:laboratorio82\\cuentaahorro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900FCC12-E1D2-47DD-9244-2E5A909250C1}|Laboratorio82\\Laboratorio82.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio82\\cuentacorriente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900FCC12-E1D2-47DD-9244-2E5A909250C1}|Laboratorio82\\Laboratorio82.csproj|solutionrelative:laboratorio82\\cuentacorriente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{900FCC12-E1D2-47DD-9244-2E5A909250C1}|Laboratorio82\\Laboratorio82.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio82\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{900FCC12-E1D2-47DD-9244-2E5A909250C1}|Laboratorio82\\Laboratorio82.csproj|solutionrelative:laboratorio82\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782A1F91-114F-4570-B2E6-005D5B3FB73C}|Laboratorio88\\Laboratorio88.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio88\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782A1F91-114F-4570-B2E6-005D5B3FB73C}|Laboratorio88\\Laboratorio88.csproj|solutionrelative:laboratorio88\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782A1F91-114F-4570-B2E6-005D5B3FB73C}|Laboratorio88\\Laboratorio88.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio88\\claseconcreta2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782A1F91-114F-4570-B2E6-005D5B3FB73C}|Laboratorio88\\Laboratorio88.csproj|solutionrelative:laboratorio88\\claseconcreta2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BC02BD-8141-4DA2-8084-0111922BD5FA}|Laboratorio87\\Laboratorio87.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio87\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BC02BD-8141-4DA2-8084-0111922BD5FA}|Laboratorio87\\Laboratorio87.csproj|solutionrelative:laboratorio87\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782A1F91-114F-4570-B2E6-005D5B3FB73C}|Laboratorio88\\Laboratorio88.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio88\\claseabstracta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782A1F91-114F-4570-B2E6-005D5B3FB73C}|Laboratorio88\\Laboratorio88.csproj|solutionrelative:laboratorio88\\claseabstracta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782A1F91-114F-4570-B2E6-005D5B3FB73C}|Laboratorio88\\Laboratorio88.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio88\\claseconcreta1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782A1F91-114F-4570-B2E6-005D5B3FB73C}|Laboratorio88\\Laboratorio88.csproj|solutionrelative:laboratorio88\\claseconcreta1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BC02BD-8141-4DA2-8084-0111922BD5FA}|Laboratorio87\\Laboratorio87.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio87\\clasebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BC02BD-8141-4DA2-8084-0111922BD5FA}|Laboratorio87\\Laboratorio87.csproj|solutionrelative:laboratorio87\\clasebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2F1B08-5B67-479D-9332-2FCA8DA9A903}|Laboratorio86\\Laboratorio86.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio86\\clasehjo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD2F1B08-5B67-479D-9332-2FCA8DA9A903}|Laboratorio86\\Laboratorio86.csproj|solutionrelative:laboratorio86\\clasehjo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BC02BD-8141-4DA2-8084-0111922BD5FA}|Laboratorio87\\Laboratorio87.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio87\\clasehjo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BC02BD-8141-4DA2-8084-0111922BD5FA}|Laboratorio87\\Laboratorio87.csproj|solutionrelative:laboratorio87\\clasehjo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2F1B08-5B67-479D-9332-2FCA8DA9A903}|Laboratorio86\\Laboratorio86.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio86\\clasebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD2F1B08-5B67-479D-9332-2FCA8DA9A903}|Laboratorio86\\Laboratorio86.csproj|solutionrelative:laboratorio86\\clasebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2F1B08-5B67-479D-9332-2FCA8DA9A903}|Laboratorio86\\Laboratorio86.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio86\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD2F1B08-5B67-479D-9332-2FCA8DA9A903}|Laboratorio86\\Laboratorio86.csproj|solutionrelative:laboratorio86\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F252070C-2583-45A6-AC5B-F5DE7F1D5601}|Laboratorio 81\\Laboratorio81.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio 81\\laboratorio81.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F252070C-2583-45A6-AC5B-F5DE7F1D5601}|Laboratorio 81\\Laboratorio81.csproj|solutionrelative:laboratorio 81\\laboratorio81.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B807B7B-1367-40BC-B241-D6307491D2D7}|Laboratorio85\\Laboratorio85.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio85\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B807B7B-1367-40BC-B241-D6307491D2D7}|Laboratorio85\\Laboratorio85.csproj|solutionrelative:laboratorio85\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B807B7B-1367-40BC-B241-D6307491D2D7}|Laboratorio85\\Laboratorio85.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio85\\coordenadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B807B7B-1367-40BC-B241-D6307491D2D7}|Laboratorio85\\Laboratorio85.csproj|solutionrelative:laboratorio85\\coordenadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C7FC95-5F30-4FCF-8769-E682AD2E79B9}|Laboratorio84\\Laboratorio84.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio84\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C7FC95-5F30-4FCF-8769-E682AD2E79B9}|Laboratorio84\\Laboratorio84.csproj|solutionrelative:laboratorio84\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C7FC95-5F30-4FCF-8769-E682AD2E79B9}|Laboratorio84\\Laboratorio84.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio84\\cobertura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C7FC95-5F30-4FCF-8769-E682AD2E79B9}|Laboratorio84\\Laboratorio84.csproj|solutionrelative:laboratorio84\\cobertura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C7FC95-5F30-4FCF-8769-E682AD2E79B9}|Laboratorio84\\Laboratorio84.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio84\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C7FC95-5F30-4FCF-8769-E682AD2E79B9}|Laboratorio84\\Laboratorio84.csproj|solutionrelative:laboratorio84\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1C7FC95-5F30-4FCF-8769-E682AD2E79B9}|Laboratorio84\\Laboratorio84.csproj|c:\\users\\juan\\source\\repos\\ds4\\laboratorio 8\\laboratorio84\\empleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1C7FC95-5F30-4FCF-8769-E682AD2E79B9}|Laboratorio84\\Laboratorio84.csproj|solutionrelative:laboratorio84\\empleo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Template.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio89\\Template.cs",
+              "RelativeDocumentMoniker": "Laboratorio89\\Template.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio89\\Template.cs",
+              "RelativeToolTip": "Laboratorio89\\Template.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:28:48.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio82\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio82\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio82\\Program.cs",
+              "RelativeToolTip": "Laboratorio82\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T23:32:43.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio89\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio89\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio89\\Program.cs",
+              "RelativeToolTip": "Laboratorio89\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:32:25.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "iTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio89\\iTemplate.cs",
+              "RelativeDocumentMoniker": "Laboratorio89\\iTemplate.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio89\\iTemplate.cs",
+              "RelativeToolTip": "Laboratorio89\\iTemplate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:27:40.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CuentaAhorro.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio82\\CuentaAhorro.cs",
+              "RelativeDocumentMoniker": "Laboratorio82\\CuentaAhorro.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio82\\CuentaAhorro.cs",
+              "RelativeToolTip": "Laboratorio82\\CuentaAhorro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:37:36.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CuentaCorriente.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio82\\CuentaCorriente.cs",
+              "RelativeDocumentMoniker": "Laboratorio82\\CuentaCorriente.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio82\\CuentaCorriente.cs",
+              "RelativeToolTip": "Laboratorio82\\CuentaCorriente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:36:45.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cuenta.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio82\\Cuenta.cs",
+              "RelativeDocumentMoniker": "Laboratorio82\\Cuenta.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio82\\Cuenta.cs",
+              "RelativeToolTip": "Laboratorio82\\Cuenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:36:20.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio 81\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio 81\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio 81\\Program.cs",
+              "RelativeToolTip": "Laboratorio 81\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T23:07:06.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio83\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio83\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio83\\Program.cs",
+              "RelativeToolTip": "Laboratorio83\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T23:53:01.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio88\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio88\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio88\\Program.cs",
+              "RelativeToolTip": "Laboratorio88\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:25:41.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClaseConcreta2.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio88\\ClaseConcreta2.cs",
+              "RelativeDocumentMoniker": "Laboratorio88\\ClaseConcreta2.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio88\\ClaseConcreta2.cs",
+              "RelativeToolTip": "Laboratorio88\\ClaseConcreta2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:24:46.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ClaseAbstracta.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio88\\ClaseAbstracta.cs",
+              "RelativeDocumentMoniker": "Laboratorio88\\ClaseAbstracta.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio88\\ClaseAbstracta.cs",
+              "RelativeToolTip": "Laboratorio88\\ClaseAbstracta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:19:21.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio87\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio87\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio87\\Program.cs",
+              "RelativeToolTip": "Laboratorio87\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:16:11.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClaseConcreta1.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio88\\ClaseConcreta1.cs",
+              "RelativeDocumentMoniker": "Laboratorio88\\ClaseConcreta1.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio88\\ClaseConcreta1.cs",
+              "RelativeToolTip": "Laboratorio88\\ClaseConcreta1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:21:36.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClaseHjo.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio87\\ClaseHjo.cs",
+              "RelativeDocumentMoniker": "Laboratorio87\\ClaseHjo.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio87\\ClaseHjo.cs",
+              "RelativeToolTip": "Laboratorio87\\ClaseHjo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:18:08.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClaseBase.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio87\\ClaseBase.cs",
+              "RelativeDocumentMoniker": "Laboratorio87\\ClaseBase.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio87\\ClaseBase.cs",
+              "RelativeToolTip": "Laboratorio87\\ClaseBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:17:09.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClaseHjo.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio86\\ClaseHjo.cs",
+              "RelativeDocumentMoniker": "Laboratorio86\\ClaseHjo.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio86\\ClaseHjo.cs",
+              "RelativeToolTip": "Laboratorio86\\ClaseHjo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:10:24.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClaseBase.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio86\\ClaseBase.cs",
+              "RelativeDocumentMoniker": "Laboratorio86\\ClaseBase.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio86\\ClaseBase.cs",
+              "RelativeToolTip": "Laboratorio86\\ClaseBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:09:07.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio86\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio86\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio86\\Program.cs",
+              "RelativeToolTip": "Laboratorio86\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:08:54.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Coordenadas.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio85\\Coordenadas.cs",
+              "RelativeDocumentMoniker": "Laboratorio85\\Coordenadas.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio85\\Coordenadas.cs",
+              "RelativeToolTip": "Laboratorio85\\Coordenadas.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:04:49.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio85\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio85\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio85\\Program.cs",
+              "RelativeToolTip": "Laboratorio85\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:04:36.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Laboratorio81.csproj",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio 81\\Laboratorio81.csproj",
+              "RelativeDocumentMoniker": "Laboratorio 81\\Laboratorio81.csproj",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio 81\\Laboratorio81.csproj",
+              "RelativeToolTip": "Laboratorio 81\\Laboratorio81.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-29T23:32:48.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio84\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio84\\Program.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio84\\Program.cs",
+              "RelativeToolTip": "Laboratorio84\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T00:01:01.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Cobertura.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio84\\Cobertura.cs",
+              "RelativeDocumentMoniker": "Laboratorio84\\Cobertura.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio84\\Cobertura.cs",
+              "RelativeToolTip": "Laboratorio84\\Cobertura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T23:59:44.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CuentaBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio84\\CuentaBancaria.cs",
+              "RelativeDocumentMoniker": "Laboratorio84\\CuentaBancaria.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio84\\CuentaBancaria.cs",
+              "RelativeToolTip": "Laboratorio84\\CuentaBancaria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T23:58:23.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Empleo.cs",
+              "DocumentMoniker": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio84\\Empleo.cs",
+              "RelativeDocumentMoniker": "Laboratorio84\\Empleo.cs",
+              "ToolTip": "C:\\Users\\Juan\\source\\repos\\ds4\\Laboratorio 8\\Laboratorio84\\Empleo.cs",
+              "RelativeToolTip": "Laboratorio84\\Empleo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T23:56:52.844Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
