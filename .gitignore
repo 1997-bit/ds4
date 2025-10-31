@@ -1,0 +1,22 @@
+**/.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+**/bin/
+**/obj/
+
+**/packages/
+*.nupkg
+*.snupkg
+
+*.log
+*.db
+*.cache
+*.bak
+*.backup
+
+# Archivos específicos de proyectos
+System.Data.SqlClient.dll
+System.Data.SqlClient.xml

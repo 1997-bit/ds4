@@ -1,5 +1,0 @@
-C:\Users\Juan\source\repos\ds4\Laboratorio 8\Laboratorio86\obj\Debug\net8.0\Laboratorio86.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Juan\source\repos\ds4\Laboratorio 8\Laboratorio86\obj\Debug\net8.0\Laboratorio86.AssemblyInfoInputs.cache
-C:\Users\Juan\source\repos\ds4\Laboratorio 8\Laboratorio86\obj\Debug\net8.0\Laboratorio86.AssemblyInfo.cs
-C:\Users\Juan\source\repos\ds4\Laboratorio 8\Laboratorio86\obj\Debug\net8.0\Laboratorio86.csproj.CoreCompileInputs.cache
-C:\Users\Juan\source\repos\ds4\Laboratorio 8\Laboratorio86\obj\Debug\net8.0\Laboratorio86.sourcelink.json
