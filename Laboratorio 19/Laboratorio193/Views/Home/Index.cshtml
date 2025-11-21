@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Todos los Valores";
+}
+
+<h2>Todos los Valores del API</h2>
+
+@if (!string.IsNullOrEmpty(ViewBag.Message))
+{
+<div class="alert alert-info">
+    @ViewBag.Message
+</div>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.Values))
+{
+<div class="well">
+    <h4>Respuesta del API:</h4>
+    <pre>@ViewBag.Values</pre>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Volver", "Index", "Home")
+</div>

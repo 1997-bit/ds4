@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Valor por ID";
+}
+
+<h2>Valor Específico del API</h2>
+
+@if (!string.IsNullOrEmpty(ViewBag.Message))
+{
+<div class="alert alert-info">
+    @ViewBag.Message
+</div>
+}
+
+@if (!string.IsNullOrEmpty(ViewBag.Value))
+{
+<div class="well">
+    <h4>Valor con ID @ViewBag.Id:</h4>
+    <pre>@ViewBag.Value</pre>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Buscar otro valor", "Index") |
+    @Html.ActionLink("Volver al Inicio", "Index", "Home")
+</div>
