@@ -1,0 +1,45 @@
+﻿@model Laboratorio202.Models.MatrizModel
+
+@{
+    ViewBag.Title = "Matriz Diagonal Inversa";
+}
+
+<h2>Matriz Diagonal Inversa</h2>
+
+@using (Html.BeginForm("GenerarMatriz", "Home", FormMethod.Post))
+{
+<div>
+    <label>Dimensión (N):</label>
+    @Html.TextBoxFor(model => model.Dimension, new {
+        @class = "form-control",
+        @type = "number",
+        @min = "2",
+        @max = "20",
+        @style = "width: 150px; display: inline-block; margin: 0 10px;"
+    })
+    <button type="submit" class="btn btn-primary">Generar</button>
+</div>
+@Html.ValidationMessageFor(model => model.Dimension, "", new { @class = "text-danger" })
+}
+
+@if (Model != null && Model.Matriz != null)
+{
+<h4>Matriz @Model.Dimension x @Model.Dimension</h4>
+
+<table class="table table-bordered text-center" style="width: auto; margin-top: 20px;">
+    <tbody>
+        @for (int i = 0; i < Model.Dimension; i++)
+            {
+        <tr>
+            @for (int j = 0; j < Model.Dimension; j++)
+                    {
+            <td style="width: 40px; height: 40px;
+                                  @(Model.Matriz[i,j] == 1 ? "background-color: #e0f0e0;" : "")">
+                @Model.Matriz[i, j]
+            </td>
+                    }
+        </tr>
+            }
+    </tbody>
+</table>
+}

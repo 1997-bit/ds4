@@ -1,0 +1,88 @@
+﻿@model Parcial_3.Models.Caso
+
+<h2>Gestión de Casos</h2>
+
+<hr />
+
+<h3>Registrar nuevo caso</h3>
+
+<form method="post">
+    <div>
+        <label>Número del Caso</label>
+        <input type="text" name="NumeroCaso" required />
+    </div>
+    <div>
+        <label>Cliente</label>
+        <input type="text" name="ClienteNombre" required />
+    </div>
+
+    <div>
+        <label>Descripción</label>
+        <textarea name="Descripcion"></textarea>
+    </div>
+
+    <div>
+        <label>Abogado Asignado</label>
+        <input type="text" name="AbogadoAsignado" />
+    </div>
+
+    <div>
+        <label>Fecha Inicio</label>
+        <input type="date" name="FechaInicio" required />
+    </div>
+    <div>
+        <label>Fecha Vencimiento</label>
+        <input type="date" name="FechaVencimiento" />
+    </div>
+
+    <div>
+        <label>Estado</label>
+        <select name="Estado">
+            <option>Activo</option>
+            <option>En proceso</option>
+            <option>Cerrado</option>
+        </select>
+    </div>
+    <div>
+        <label>Observaciones</label>
+        <textarea name="Observaciones"></textarea>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+<hr/>
+
+<h3>Listado de casos</h3>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Número Caso</th>
+            <th>Cliente</th>
+            <th>Descripción</th>
+            <th>Abogado</th>
+            <th>Inicio</th>
+            <th>Vencimiento</th>
+            <th>Estado</th>
+            <th>Observaciones</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var c in ViewBag.Casos)
+        {
+        <tr>
+            <td>@c.Id</td>
+            <td>@c.NumeroCaso</td>
+            <td>@c.ClienteNombre</td>
+            <td>@c.Descripcion</td>
+            <td>@c.AbogadoAsignado</td>
+            <td>@c.FechaInicio.ToShortDateString()</td>
+            <td>@(c.FechaVencimiento?.ToShortDateString() ?? "-")</td>
+            <td>@c.Estado</td>
+            <td>@c.Observaciones</td>
+        </tr>
+        }
+    </tbody>
+</table>
