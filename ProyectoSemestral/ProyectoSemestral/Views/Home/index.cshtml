@@ -1,0 +1,596 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="\ProyectoSemestral\favicon.svg">
+    <title>Gestor de Notas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, 'Segoe UI', Roboto, sans-serif;
+            background-color: white;
+            color: #333;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contenedor-app {
+            display: flex;
+            height: 95vh;
+            width: 95vw;
+            max-width: 1400px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .panel-editor {
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            border-right: 1px solid #ddd;
+        }
+
+        .encabezado-editor {
+            padding: 15px 20px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+            .encabezado-editor h2 {
+                font-size: 1.4rem;
+                color: #333;
+                margin: 0;
+            }
+
+        .mostrar-fecha {
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        .contenido-editor {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+            .contenido-editor input,
+            .contenido-editor textarea {
+                width: 100%;
+                border: none;
+                outline: none;
+                padding: 20px;
+                font-family: inherit;
+                background: white;
+            }
+
+            .contenido-editor input {
+                font-size: 1.5rem;
+                font-weight: 600;
+                border-bottom: 1px solid #eee;
+                height: 70px;
+            }
+
+            .contenido-editor textarea {
+                flex: 1;
+                min-height: 200px;
+                font-size: 1rem;
+                line-height: 1.6;
+                resize: none;
+                padding: 20px;
+            }
+
+        .acciones-editor {
+            padding: 15px 20px;
+            border-top: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            flex-shrink: 0;
+        }
+
+        .panel-notas {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            min-width: 300px;
+            max-width: 400px;
+        }
+
+        .encabezado-notas {
+            padding: 15px 20px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+            .encabezado-notas h3 {
+                font-size: 1.2rem;
+                color: #333;
+                margin: 0;
+            }
+
+        .caja-busqueda {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 180px;
+        }
+
+        .lista-notas {
+            flex: 1;
+            overflow-y: auto;
+            min-height: 0;
+        }
+
+        .item-nota {
+            padding: 15px 20px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+        }
+
+            .item-nota:hover {
+                background: #f8f9fa;
+            }
+
+            .item-nota.activa {
+                background: #e7f1ff;
+                border-left: 3px solid #007bff;
+            }
+
+        .titulo-nota {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .vista-previa-nota {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.4;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+
+        .meta-nota {
+            font-size: 0.8rem;
+            color: #888;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+        }
+
+        .estadisticas {
+            padding: 12px 20px;
+            border-top: 1px solid #ddd;
+            font-size: 0.85rem;
+            color: #666;
+            display: flex;
+            justify-content: space-between;
+            flex-shrink: 0;
+        }
+
+        .boton {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .boton-principal {
+            background: #007bff;
+            color: white;
+        }
+
+            .boton-principal:hover {
+                background: #0056b3;
+            }
+
+        .boton-secundario {
+            background: #f8f9fa;
+            color: #333;
+            border: 1px solid #ddd;
+        }
+
+            .boton-secundario:hover {
+                background: #e9ecef;
+            }
+
+        .boton-peligro {
+            background: #dc3545;
+            color: white;
+        }
+
+            .boton-peligro:hover {
+                background: #c82333;
+            }
+
+        .boton-exito {
+            background: #28a745;
+            color: white;
+        }
+
+            .boton-exito:hover {
+                background: #218838;
+            }
+
+        .estado-vacio {
+            text-align: center;
+            padding: 40px 20px;
+            color: #888;
+        }
+
+        .cargando {
+            padding: 20px;
+            text-align: center;
+            color: #888;
+        }
+
+        #contenido-nota {
+            width: 100% !important;
+            max-width: 100% !important;
+            box-sizing: border-box !important;
+            margin: 0 !important;
+            padding: 20px !important;
+        }
+
+        .contenido-editor {
+            padding: 0 !important;
+            margin: 0 !important;
+            width: 100% !important;
+        }
+
+        #titulo-nota {
+            width: 100% !important;
+            max-width: 100% !important;
+            box-sizing: border-box !important;
+            margin: 0 !important;
+            padding: 20px !important;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor-app">
+        <!-- EDITOR -->
+        <div class="panel-editor">
+            <div class="encabezado-editor">
+                <div>
+                    <h2 id="titulo-editor">Nueva Nota</h2>
+                    <div class="mostrar-fecha" id="fecha-actual"></div>
+                </div>
+                <div>
+                    <button class="boton boton-exito" id="boton-guardar-rapido">Guardar</button>
+                    <button class="boton boton-secundario" id="boton-nueva-nota">Nueva</button>
+                </div>
+            </div>
+
+            <div class="contenido-editor">
+                <input type="text" id="titulo-nota" placeholder="Título de la nota...">
+                <textarea id="contenido-nota" placeholder="Escribe tu nota aquí..."></textarea>
+            </div>
+
+            <div class="acciones-editor">
+                <input type="hidden" id="id-nota" value="0">
+
+                <div>
+                    <button id="boton-eliminar" class="boton boton-peligro" style="display: none;">Eliminar</button>
+                    <button id="boton-cancelar" class="boton boton-secundario" style="display: none;">Cancelar</button>
+                </div>
+
+                <div>
+                    <button id="boton-guardar" class="boton boton-principal">Guardar Nota</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- LISTA NOTAS -->
+        <div class="panel-notas">
+            <div class="encabezado-notas">
+                <h3>Notas</h3>
+                <div>
+                    <input type="text" id="caja-busqueda" class="caja-busqueda" placeholder="Buscar...">
+                    <button class="boton boton-secundario" id="boton-refrescar">↻</button>
+                </div>
+            </div>
+
+            <div class="lista-notas" id="lista-notas">
+                <div class="cargando">Cargando notas...</div>
+            </div>
+
+            <div class="estadisticas">
+                <span id="total-notas">0 notas</span>
+                <span id="info-seleccionada">-</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const URL_API = '/api/Notas';
+        let notas = [];
+        let idNotaActual = null;
+        let textoBusqueda = '';
+
+        document.addEventListener('DOMContentLoaded', function () {
+            actualizarFecha();
+            cargarNotas();
+
+            document.getElementById('boton-guardar').addEventListener('click', guardarNota);
+            document.getElementById('boton-nueva-nota').addEventListener('click', crearNotaNueva);
+            document.getElementById('boton-guardar-rapido').addEventListener('click', guardarNota);
+            document.getElementById('boton-eliminar').addEventListener('click', eliminarNotaActual);
+            document.getElementById('boton-cancelar').addEventListener('click', cancelarEdicion);
+            document.getElementById('caja-busqueda').addEventListener('input', manejarBusqueda);
+            document.getElementById('boton-refrescar').addEventListener('click', cargarNotas);
+            document.getElementById('titulo-nota').addEventListener('input', actualizarTituloEditor);
+
+            document.addEventListener('keydown', e => {
+                if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+                    e.preventDefault();
+                    guardarNota();
+                }
+            });
+        });
+
+        async function cargarNotas() {
+            const contenedor = document.getElementById('lista-notas');
+            contenedor.innerHTML = '<div class="cargando">Cargando notas...</div>';
+
+            try {
+                const respuesta = await fetch(URL_API);
+                const datos = await respuesta.json();
+
+                if (datos && datos.Result === 1) {
+                    notas = datos.Data || [];
+                    mostrarNotas();
+                    if (notas.length > 0 && !idNotaActual) {
+                        seleccionarNota(notas[0].Id);
+                    }
+                } else {
+                    throw new Error(datos?.Message || 'Error desconocido');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                contenedor.innerHTML = '<div class="estado-vacio">Error al cargar notas</div>';
+            }
+
+            actualizarEstadisticas();
+        }
+
+        async function guardarNota() {
+            const titulo = document.getElementById('titulo-nota').value.trim();
+            const contenido = document.getElementById('contenido-nota').value.trim();
+            const idNota = parseInt(document.getElementById('id-nota').value);
+
+            if (!titulo) {
+                alert('El título es obligatorio');
+                document.getElementById('titulo-nota').focus();
+                return;
+            }
+
+            const datosNota = { Titulo: titulo, Contenido: contenido };
+
+            try {
+                const url = idNota > 0
+                    ? `${URL_API}/ActualizarNota/${idNota}`
+                    : URL_API;
+
+                const metodo = idNota > 0 ? 'PUT' : 'POST';
+
+                const respuesta = await fetch(url, {
+                    method: metodo,
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(datosNota)
+                });
+
+                const resultado = await respuesta.json();
+
+                if (resultado.Result === 1) {
+                    await cargarNotas();
+                    if (idNota === 0 && resultado.Data) {
+                        seleccionarNota(resultado.Data);
+                    }
+                } else {
+                    alert('Error: ' + (resultado.Message || 'Error desconocido'));
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error de conexión');
+            }
+        }
+
+        function seleccionarNota(id) {
+            const nota = notas.find(n => n.Id === id);
+            if (!nota) return;
+
+            idNotaActual = id;
+            document.getElementById('id-nota').value = nota.Id;
+            document.getElementById('titulo-nota').value = nota.Titulo || '';
+            document.getElementById('contenido-nota').value = nota.Contenido || '';
+            document.getElementById('titulo-editor').textContent = nota.Titulo || 'Nueva Nota';
+
+            document.getElementById('boton-eliminar').style.display = 'inline-block';
+            document.getElementById('boton-cancelar').style.display = 'inline-block';
+            document.getElementById('boton-guardar').textContent = 'Actualizar';
+
+            mostrarNotas();
+        }
+
+        function mostrarNotas() {
+            const contenedor = document.getElementById('lista-notas');
+
+            if (notas.length === 0) {
+                contenedor.innerHTML = '<div class="estado-vacio">No hay notas<br>Crea tu primera nota</div>';
+                return;
+            }
+
+            let notasFiltradas = notas;
+            if (textoBusqueda) {
+                const busqueda = textoBusqueda.toLowerCase();
+                notasFiltradas = notas.filter(nota => {
+                    const titulo = (nota.Titulo || '').toLowerCase();
+                    const contenido = (nota.Contenido || '').toLowerCase();
+                    return titulo.includes(busqueda) || contenido.includes(busqueda);
+                });
+            }
+
+            notasFiltradas.sort((a, b) => {
+                const fechaA = new Date(a.UltimaModificacion || a.FechaCreacion);
+                const fechaB = new Date(b.UltimaModificacion || b.FechaCreacion);
+                return fechaB - fechaA;
+            });
+
+            contenedor.innerHTML = notasFiltradas.map(nota => `
+                        <div class="item-nota ${idNotaActual === nota.Id ? 'activa' : ''}"
+                             onclick="seleccionarNota(${nota.Id})">
+                            <div class="titulo-nota">${escaparHtml(nota.Titulo || 'Sin título')}</div>
+                            <div class="vista-previa-nota">${escaparHtml((nota.Contenido || '').substring(0, 200))}</div>
+                            <div class="meta-nota">
+                                <span>${formatearFecha(nota.UltimaModificacion || nota.FechaCreacion)}</span>
+                                <span>${(nota.Contenido || '').length} caracteres</span>
+                            </div>
+                        </div>
+                    `).join('');
+
+            actualizarEstadisticas();
+        }
+
+        function crearNotaNueva() {
+            document.getElementById('id-nota').value = '0';
+            document.getElementById('titulo-nota').value = '';
+            document.getElementById('contenido-nota').value = '';
+            document.getElementById('titulo-editor').textContent = 'Nueva Nota';
+
+            idNotaActual = null;
+            document.getElementById('boton-eliminar').style.display = 'none';
+            document.getElementById('boton-cancelar').style.display = 'none';
+            document.getElementById('boton-guardar').textContent = 'Guardar Nota';
+            document.getElementById('titulo-nota').focus();
+        }
+
+        async function eliminarNotaActual() {
+            if (!idNotaActual) return;
+
+            const nota = notas.find(n => n.Id === idNotaActual);
+            if (!nota) return;
+
+            if (!confirm(`¿Eliminar la nota "${escaparHtml(nota.Titulo)}"?`)) {
+                return;
+            }
+
+            try {
+                const respuesta = await fetch(`${URL_API}/EliminarNota/${idNotaActual}`, {
+                    method: 'DELETE'
+                });
+
+                const resultado = await respuesta.json();
+
+                if (resultado.Result === 1) {
+                    await cargarNotas();
+                    crearNotaNueva();
+                } else {
+                    alert('Error: ' + (resultado.Message || 'Error desconocido'));
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error de conexión');
+            }
+        }
+
+        function cancelarEdicion() {
+            if (idNotaActual) {
+                const nota = notas.find(n => n.Id === idNotaActual);
+                if (nota) {
+                    document.getElementById('titulo-nota').value = nota.Titulo || '';
+                    document.getElementById('contenido-nota').value = nota.Contenido || '';
+                }
+            } else {
+                crearNotaNueva();
+            }
+        }
+
+        function actualizarFecha() {
+            const ahora = new Date();
+            document.getElementById('fecha-actual').textContent =
+                ahora.toLocaleDateString('es-ES', {
+                    weekday: 'long',
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+        }
+
+        function formatearFecha(cadenaFecha) {
+            try {
+                const fecha = new Date(cadenaFecha);
+                const ahora = new Date();
+                const diferenciaDias = Math.floor((ahora - fecha) / (1000 * 60 * 60 * 24));
+
+                if (diferenciaDias === 0) return 'Hoy';
+                if (diferenciaDias === 1) return 'Ayer';
+                if (diferenciaDias < 7) return `Hace ${diferenciaDias} días`;
+
+                return fecha.toLocaleDateString('es-ES', {
+                    month: 'short',
+                    day: 'numeric'
+                });
+            } catch {
+                return 'Fecha inválida';
+            }
+        }
+
+        function actualizarEstadisticas() {
+            const total = notas.length;
+            document.getElementById('total-notas').textContent = `${total} ${total === 1 ? 'nota' : 'notas'}`;
+
+            const notaSeleccionada = idNotaActual ? notas.find(n => n.Id === idNotaActual) : null;
+            if (notaSeleccionada) {
+                const caracteres = (notaSeleccionada.Contenido || '').length;
+                document.getElementById('info-seleccionada').textContent = `${caracteres} caracteres`;
+            } else {
+                document.getElementById('info-seleccionada').textContent = '-';
+            }
+        }
+
+        function manejarBusqueda(e) {
+            textoBusqueda = e.target.value;
+            mostrarNotas();
+        }
+
+        function actualizarTituloEditor() {
+            const titulo = document.getElementById('titulo-nota').value.trim();
+            document.getElementById('titulo-editor').textContent = titulo || 'Nueva Nota';
+        }
+
+        function escaparHtml(texto) {
+            if (!texto) return '';
+            const div = document.createElement('div');
+            div.textContent = texto;
+            return div.innerHTML;
+        }
+
+        window.seleccionarNota = seleccionarNota;
+        window.cargarNotas = cargarNotas;
+        window.crearNotaNueva = crearNotaNueva;
+    </script>
+</body>
+</html>
